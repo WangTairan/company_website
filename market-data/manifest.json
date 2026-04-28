@@ -1,0 +1,37 @@
+{
+  "defaultMarket": "china_a",
+  "markets": [
+    {
+      "key": "china_a",
+      "label": "中国 A 股",
+      "file": "/market-data/china_a.json",
+      "rows": 35230,
+      "minDate": "2000-01-04",
+      "maxDate": "2026-04-28"
+    },
+    {
+      "key": "hong_kong",
+      "label": "港股",
+      "file": "/market-data/hong_kong.json",
+      "rows": 12964,
+      "minDate": "2000-01-03",
+      "maxDate": "2026-04-27"
+    },
+    {
+      "key": "us",
+      "label": "美股",
+      "file": "/market-data/us.json",
+      "rows": 26472,
+      "minDate": "2000-01-03",
+      "maxDate": "2026-04-27"
+    },
+    {
+      "key": "uk",
+      "label": "英股",
+      "file": "/market-data/uk.json",
+      "rows": 19943,
+      "minDate": "2000-01-04",
+      "maxDate": "2026-04-27"
+    }
+  ]
+}
