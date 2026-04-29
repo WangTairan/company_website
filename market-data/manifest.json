@@ -7,7 +7,273 @@
       "file": "/market-data/china_a.json",
       "rows": 35230,
       "minDate": "2000-01-04",
-      "maxDate": "2026-04-28"
+      "maxDate": "2026-04-28",
+      "datasets": [
+        {
+          "key": "indexes",
+          "label": "指数",
+          "kind": "indexes",
+          "file": "/market-data/china_a.json",
+          "rows": 35230,
+          "minDate": "2000-01-04",
+          "maxDate": "2026-04-28"
+        },
+        {
+          "key": "industries_sw_level_1",
+          "label": "申万行业",
+          "kind": "industries",
+          "level": 1,
+          "file": "",
+          "rows": 139068,
+          "minDate": "2000-01-04",
+          "maxDate": "2026-04-28",
+          "chunks": [
+            {
+              "key": "2000",
+              "startDate": "2000-01-04",
+              "endDate": "2000-12-29",
+              "file": "/market-data/china_a_industries_sw_level_1/2000.json",
+              "rows": 3824,
+              "minDate": "2000-01-04",
+              "maxDate": "2000-12-29"
+            },
+            {
+              "key": "2001",
+              "startDate": "2001-01-02",
+              "endDate": "2001-12-31",
+              "file": "/market-data/china_a_industries_sw_level_1/2001.json",
+              "rows": 3840,
+              "minDate": "2001-01-02",
+              "maxDate": "2001-12-31"
+            },
+            {
+              "key": "2002",
+              "startDate": "2002-01-04",
+              "endDate": "2002-12-31",
+              "file": "/market-data/china_a_industries_sw_level_1/2002.json",
+              "rows": 3792,
+              "minDate": "2002-01-04",
+              "maxDate": "2002-12-31"
+            },
+            {
+              "key": "2003",
+              "startDate": "2003-01-02",
+              "endDate": "2003-12-31",
+              "file": "/market-data/china_a_industries_sw_level_1/2003.json",
+              "rows": 3856,
+              "minDate": "2003-01-02",
+              "maxDate": "2003-12-31"
+            },
+            {
+              "key": "2004",
+              "startDate": "2004-01-02",
+              "endDate": "2004-12-31",
+              "file": "/market-data/china_a_industries_sw_level_1/2004.json",
+              "rows": 3888,
+              "minDate": "2004-01-02",
+              "maxDate": "2004-12-31"
+            },
+            {
+              "key": "2005",
+              "startDate": "2005-01-04",
+              "endDate": "2005-12-30",
+              "file": "/market-data/china_a_industries_sw_level_1/2005.json",
+              "rows": 3872,
+              "minDate": "2005-01-04",
+              "maxDate": "2005-12-30"
+            },
+            {
+              "key": "2006",
+              "startDate": "2006-01-04",
+              "endDate": "2006-12-29",
+              "file": "/market-data/china_a_industries_sw_level_1/2006.json",
+              "rows": 3856,
+              "minDate": "2006-01-04",
+              "maxDate": "2006-12-29"
+            },
+            {
+              "key": "2007",
+              "startDate": "2007-01-04",
+              "endDate": "2007-12-28",
+              "file": "/market-data/china_a_industries_sw_level_1/2007.json",
+              "rows": 3872,
+              "minDate": "2007-01-04",
+              "maxDate": "2007-12-28"
+            },
+            {
+              "key": "2008",
+              "startDate": "2008-01-02",
+              "endDate": "2008-12-31",
+              "file": "/market-data/china_a_industries_sw_level_1/2008.json",
+              "rows": 3936,
+              "minDate": "2008-01-02",
+              "maxDate": "2008-12-31"
+            },
+            {
+              "key": "2009",
+              "startDate": "2009-01-05",
+              "endDate": "2009-12-31",
+              "file": "/market-data/china_a_industries_sw_level_1/2009.json",
+              "rows": 3904,
+              "minDate": "2009-01-05",
+              "maxDate": "2009-12-31"
+            },
+            {
+              "key": "2010",
+              "startDate": "2010-01-04",
+              "endDate": "2010-12-31",
+              "file": "/market-data/china_a_industries_sw_level_1/2010.json",
+              "rows": 3872,
+              "minDate": "2010-01-04",
+              "maxDate": "2010-12-31"
+            },
+            {
+              "key": "2011",
+              "startDate": "2011-01-04",
+              "endDate": "2011-12-30",
+              "file": "/market-data/china_a_industries_sw_level_1/2011.json",
+              "rows": 3904,
+              "minDate": "2011-01-04",
+              "maxDate": "2011-12-30"
+            },
+            {
+              "key": "2012",
+              "startDate": "2012-01-04",
+              "endDate": "2012-12-31",
+              "file": "/market-data/china_a_industries_sw_level_1/2012.json",
+              "rows": 3888,
+              "minDate": "2012-01-04",
+              "maxDate": "2012-12-31"
+            },
+            {
+              "key": "2013",
+              "startDate": "2013-01-04",
+              "endDate": "2013-12-31",
+              "file": "/market-data/china_a_industries_sw_level_1/2013.json",
+              "rows": 3808,
+              "minDate": "2013-01-04",
+              "maxDate": "2013-12-31"
+            },
+            {
+              "key": "2014",
+              "startDate": "2014-01-02",
+              "endDate": "2014-12-31",
+              "file": "/market-data/china_a_industries_sw_level_1/2014.json",
+              "rows": 6488,
+              "minDate": "2014-01-02",
+              "maxDate": "2014-12-31"
+            },
+            {
+              "key": "2015",
+              "startDate": "2015-01-05",
+              "endDate": "2015-12-31",
+              "file": "/market-data/china_a_industries_sw_level_1/2015.json",
+              "rows": 6775,
+              "minDate": "2015-01-05",
+              "maxDate": "2015-12-31"
+            },
+            {
+              "key": "2016",
+              "startDate": "2016-01-04",
+              "endDate": "2016-12-30",
+              "file": "/market-data/china_a_industries_sw_level_1/2016.json",
+              "rows": 6748,
+              "minDate": "2016-01-04",
+              "maxDate": "2016-12-30"
+            },
+            {
+              "key": "2017",
+              "startDate": "2017-01-03",
+              "endDate": "2017-12-29",
+              "file": "/market-data/china_a_industries_sw_level_1/2017.json",
+              "rows": 6548,
+              "minDate": "2017-01-03",
+              "maxDate": "2017-12-29"
+            },
+            {
+              "key": "2018",
+              "startDate": "2018-01-02",
+              "endDate": "2018-12-28",
+              "file": "/market-data/china_a_industries_sw_level_1/2018.json",
+              "rows": 6561,
+              "minDate": "2018-01-02",
+              "maxDate": "2018-12-28"
+            },
+            {
+              "key": "2019",
+              "startDate": "2019-01-02",
+              "endDate": "2019-12-31",
+              "file": "/market-data/china_a_industries_sw_level_1/2019.json",
+              "rows": 6588,
+              "minDate": "2019-01-02",
+              "maxDate": "2019-12-31"
+            },
+            {
+              "key": "2020",
+              "startDate": "2020-01-02",
+              "endDate": "2020-12-31",
+              "file": "/market-data/china_a_industries_sw_level_1/2020.json",
+              "rows": 6561,
+              "minDate": "2020-01-02",
+              "maxDate": "2020-12-31"
+            },
+            {
+              "key": "2021",
+              "startDate": "2021-01-04",
+              "endDate": "2021-12-31",
+              "file": "/market-data/china_a_industries_sw_level_1/2021.json",
+              "rows": 6540,
+              "minDate": "2021-01-04",
+              "maxDate": "2021-12-31"
+            },
+            {
+              "key": "2022",
+              "startDate": "2022-01-04",
+              "endDate": "2022-12-30",
+              "file": "/market-data/china_a_industries_sw_level_1/2022.json",
+              "rows": 7316,
+              "minDate": "2022-01-04",
+              "maxDate": "2022-12-30"
+            },
+            {
+              "key": "2023",
+              "startDate": "2023-01-03",
+              "endDate": "2023-12-29",
+              "file": "/market-data/china_a_industries_sw_level_1/2023.json",
+              "rows": 7471,
+              "minDate": "2023-01-03",
+              "maxDate": "2023-12-29"
+            },
+            {
+              "key": "2024",
+              "startDate": "2024-01-02",
+              "endDate": "2024-12-31",
+              "file": "/market-data/china_a_industries_sw_level_1/2024.json",
+              "rows": 7502,
+              "minDate": "2024-01-02",
+              "maxDate": "2024-12-31"
+            },
+            {
+              "key": "2025",
+              "startDate": "2025-01-02",
+              "endDate": "2025-12-31",
+              "file": "/market-data/china_a_industries_sw_level_1/2025.json",
+              "rows": 7533,
+              "minDate": "2025-01-02",
+              "maxDate": "2025-12-31"
+            },
+            {
+              "key": "2026",
+              "startDate": "2026-01-05",
+              "endDate": "2026-04-28",
+              "file": "/market-data/china_a_industries_sw_level_1/2026.json",
+              "rows": 2325,
+              "minDate": "2026-01-05",
+              "maxDate": "2026-04-28"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "hong_kong",
@@ -15,7 +281,28 @@
       "file": "/market-data/hong_kong.json",
       "rows": 12964,
       "minDate": "2000-01-03",
-      "maxDate": "2026-04-27"
+      "maxDate": "2026-04-27",
+      "datasets": [
+        {
+          "key": "indexes",
+          "label": "指数",
+          "kind": "indexes",
+          "file": "/market-data/hong_kong.json",
+          "rows": 12964,
+          "minDate": "2000-01-03",
+          "maxDate": "2026-04-27"
+        },
+        {
+          "key": "hang_seng_sectors",
+          "label": "恒生行业",
+          "kind": "industries",
+          "source": "hang_seng_sector",
+          "file": "/market-data/hong_kong_hang_seng_sectors.json",
+          "rows": 17785,
+          "minDate": "2000-01-03",
+          "maxDate": "2026-04-29"
+        }
+      ]
     },
     {
       "key": "us",
@@ -23,7 +310,28 @@
       "file": "/market-data/us.json",
       "rows": 26472,
       "minDate": "2000-01-03",
-      "maxDate": "2026-04-27"
+      "maxDate": "2026-04-27",
+      "datasets": [
+        {
+          "key": "indexes",
+          "label": "指数",
+          "kind": "indexes",
+          "file": "/market-data/us.json",
+          "rows": 26472,
+          "minDate": "2000-01-03",
+          "maxDate": "2026-04-27"
+        },
+        {
+          "key": "sector_etfs",
+          "label": "行业 ETF",
+          "kind": "industries",
+          "source": "sector_etf",
+          "file": "/market-data/us_sector_etfs.json",
+          "rows": 64179,
+          "minDate": "2000-01-03",
+          "maxDate": "2026-04-28"
+        }
+      ]
     },
     {
       "key": "uk",
