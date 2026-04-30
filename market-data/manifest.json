@@ -339,7 +339,28 @@
       "file": "/market-data/uk.json",
       "rows": 19943,
       "minDate": "2000-01-04",
-      "maxDate": "2026-04-27"
+      "maxDate": "2026-04-27",
+      "datasets": [
+        {
+          "key": "indexes",
+          "label": "指数",
+          "kind": "indexes",
+          "file": "/market-data/uk.json",
+          "rows": 19943,
+          "minDate": "2000-01-04",
+          "maxDate": "2026-04-27"
+        },
+        {
+          "key": "uk_sector_etfs",
+          "label": "行业 ETF",
+          "kind": "industries",
+          "source": "sector_etf",
+          "file": "/market-data/uk_sector_etfs.json",
+          "rows": 26865,
+          "minDate": "2015-11-20",
+          "maxDate": "2026-04-28"
+        }
+      ]
     }
   ]
 }
