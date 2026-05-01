@@ -5,18 +5,18 @@
       "key": "china_a",
       "label": "中国 A 股",
       "file": "/market-data/china_a.json",
-      "rows": 35230,
+      "rows": 14000,
       "minDate": "2000-01-04",
-      "maxDate": "2026-04-28",
+      "maxDate": "2026-04-30",
       "datasets": [
         {
           "key": "indexes",
           "label": "指数",
           "kind": "indexes",
           "file": "/market-data/china_a.json",
-          "rows": 35230,
+          "rows": 14000,
           "minDate": "2000-01-04",
-          "maxDate": "2026-04-28"
+          "maxDate": "2026-04-30"
         },
         {
           "key": "industries_sw_level_1",
@@ -24,9 +24,9 @@
           "kind": "industries",
           "level": 1,
           "file": "",
-          "rows": 139068,
+          "rows": 139128,
           "minDate": "2000-01-04",
-          "maxDate": "2026-04-28",
+          "maxDate": "2026-04-30",
           "chunks": [
             {
               "key": "2000",
@@ -265,11 +265,11 @@
             {
               "key": "2026",
               "startDate": "2026-01-05",
-              "endDate": "2026-04-28",
+              "endDate": "2026-04-30",
               "file": "/market-data/china_a_industries_sw_level_1/2026.json",
-              "rows": 2325,
+              "rows": 2385,
               "minDate": "2026-01-05",
-              "maxDate": "2026-04-28"
+              "maxDate": "2026-04-30"
             }
           ]
         }
@@ -279,18 +279,18 @@
       "key": "hong_kong",
       "label": "港股",
       "file": "/market-data/hong_kong.json",
-      "rows": 12964,
+      "rows": 12971,
       "minDate": "2000-01-03",
-      "maxDate": "2026-04-27",
+      "maxDate": "2026-04-30",
       "datasets": [
         {
           "key": "indexes",
           "label": "指数",
           "kind": "indexes",
           "file": "/market-data/hong_kong.json",
-          "rows": 12964,
+          "rows": 12971,
           "minDate": "2000-01-03",
-          "maxDate": "2026-04-27"
+          "maxDate": "2026-04-30"
         },
         {
           "key": "hang_seng_sectors",
@@ -298,9 +298,9 @@
           "kind": "industries",
           "source": "hang_seng_sector",
           "file": "/market-data/hong_kong_hang_seng_sectors.json",
-          "rows": 17785,
+          "rows": 17789,
           "minDate": "2000-01-03",
-          "maxDate": "2026-04-29"
+          "maxDate": "2026-04-30"
         }
       ]
     },
@@ -308,18 +308,18 @@
       "key": "us",
       "label": "美股",
       "file": "/market-data/us.json",
-      "rows": 26472,
+      "rows": 26484,
       "minDate": "2000-01-03",
-      "maxDate": "2026-04-27",
+      "maxDate": "2026-04-30",
       "datasets": [
         {
           "key": "indexes",
           "label": "指数",
           "kind": "indexes",
           "file": "/market-data/us.json",
-          "rows": 26472,
+          "rows": 26484,
           "minDate": "2000-01-03",
-          "maxDate": "2026-04-27"
+          "maxDate": "2026-04-30"
         },
         {
           "key": "sector_etfs",
@@ -327,9 +327,9 @@
           "kind": "industries",
           "source": "sector_etf",
           "file": "/market-data/us_sector_etfs.json",
-          "rows": 64179,
+          "rows": 64201,
           "minDate": "2000-01-03",
-          "maxDate": "2026-04-28"
+          "maxDate": "2026-04-30"
         }
       ]
     },
@@ -337,18 +337,18 @@
       "key": "uk",
       "label": "英股",
       "file": "/market-data/uk.json",
-      "rows": 19943,
+      "rows": 19955,
       "minDate": "2000-01-04",
-      "maxDate": "2026-04-27",
+      "maxDate": "2026-05-01",
       "datasets": [
         {
           "key": "indexes",
           "label": "指数",
           "kind": "indexes",
           "file": "/market-data/uk.json",
-          "rows": 19943,
+          "rows": 19955,
           "minDate": "2000-01-04",
-          "maxDate": "2026-04-27"
+          "maxDate": "2026-05-01"
         },
         {
           "key": "uk_sector_etfs",
@@ -356,9 +356,9 @@
           "kind": "industries",
           "source": "sector_etf",
           "file": "/market-data/uk_sector_etfs.json",
-          "rows": 26865,
+          "rows": 26898,
           "minDate": "2015-11-20",
-          "maxDate": "2026-04-28"
+          "maxDate": "2026-05-01"
         }
       ]
     }
