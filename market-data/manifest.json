@@ -4,6 +4,20 @@
     {
       "key": "china_a",
       "label": "中国 A 股",
+      "symbols": [
+        "000001.SS",
+        "399001.SZ",
+        "000300.SS",
+        "000016.SS",
+        "000905.SS",
+        "000852.SS",
+        "000688.SS"
+      ],
+      "defaultSymbols": [
+        "000001.SS",
+        "000300.SS",
+        "399001.SZ"
+      ],
       "file": "/market-data/china_a.json",
       "rows": 14000,
       "minDate": "2000-01-04",
@@ -16,15 +30,72 @@
           "file": "/market-data/china_a.json",
           "rows": 14000,
           "minDate": "2000-01-04",
-          "maxDate": "2026-04-30"
+          "maxDate": "2026-04-30",
+          "symbols": [
+            "000001.SS",
+            "399001.SZ",
+            "000300.SS",
+            "000016.SS",
+            "000905.SS",
+            "000852.SS",
+            "000688.SS"
+          ],
+          "defaultSymbols": [
+            "000001.SS",
+            "000300.SS",
+            "399001.SZ"
+          ]
         },
         {
           "key": "industries_sw_level_1",
           "label": "申万行业",
           "kind": "industries",
           "level": 1,
+          "symbols": [
+            "801010",
+            "801030",
+            "801040",
+            "801050",
+            "801080",
+            "801110",
+            "801120",
+            "801130",
+            "801140",
+            "801150",
+            "801160",
+            "801170",
+            "801180",
+            "801200",
+            "801210",
+            "801230",
+            "801710",
+            "801720",
+            "801730",
+            "801740",
+            "801750",
+            "801760",
+            "801770",
+            "801780",
+            "801790",
+            "801880",
+            "801890",
+            "801950",
+            "801960",
+            "801970",
+            "801980"
+          ],
+          "defaultSymbols": [
+            "801030",
+            "801050",
+            "801080",
+            "801120",
+            "801150",
+            "801730",
+            "801750",
+            "801780"
+          ],
           "file": "",
-          "rows": 139128,
+          "rows": 139130,
           "minDate": "2000-01-04",
           "maxDate": "2026-04-30",
           "chunks": [
@@ -267,7 +338,7 @@
               "startDate": "2026-01-05",
               "endDate": "2026-04-30",
               "file": "/market-data/china_a_industries_sw_level_1/2026.json",
-              "rows": 2385,
+              "rows": 2387,
               "minDate": "2026-01-05",
               "maxDate": "2026-04-30"
             }
@@ -278,8 +349,13 @@
     {
       "key": "hong_kong",
       "label": "港股",
+      "symbols": [
+        "^HSI",
+        "^HSCE"
+      ],
+      "defaultSymbols": [],
       "file": "/market-data/hong_kong.json",
-      "rows": 12971,
+      "rows": 12970,
       "minDate": "2000-01-03",
       "maxDate": "2026-04-30",
       "datasets": [
@@ -288,15 +364,27 @@
           "label": "指数",
           "kind": "indexes",
           "file": "/market-data/hong_kong.json",
-          "rows": 12971,
+          "rows": 12970,
           "minDate": "2000-01-03",
-          "maxDate": "2026-04-30"
+          "maxDate": "2026-04-30",
+          "symbols": [
+            "^HSI",
+            "^HSCE"
+          ],
+          "defaultSymbols": []
         },
         {
           "key": "hang_seng_sectors",
           "label": "恒生行业",
           "kind": "industries",
           "source": "hang_seng_sector",
+          "symbols": [
+            "^HSNF",
+            "^HSNU",
+            "^HSNP",
+            "^HSNC"
+          ],
+          "defaultSymbols": [],
           "file": "/market-data/hong_kong_hang_seng_sectors.json",
           "rows": 17789,
           "minDate": "2000-01-03",
@@ -307,35 +395,78 @@
     {
       "key": "us",
       "label": "美股",
+      "symbols": [
+        "^GSPC",
+        "^DJI",
+        "^IXIC",
+        "^RUT"
+      ],
+      "defaultSymbols": [],
       "file": "/market-data/us.json",
-      "rows": 26484,
+      "rows": 26488,
       "minDate": "2000-01-03",
-      "maxDate": "2026-04-30",
+      "maxDate": "2026-05-01",
       "datasets": [
         {
           "key": "indexes",
           "label": "指数",
           "kind": "indexes",
           "file": "/market-data/us.json",
-          "rows": 26484,
+          "rows": 26488,
           "minDate": "2000-01-03",
-          "maxDate": "2026-04-30"
+          "maxDate": "2026-05-01",
+          "symbols": [
+            "^GSPC",
+            "^DJI",
+            "^IXIC",
+            "^RUT"
+          ],
+          "defaultSymbols": []
         },
         {
           "key": "sector_etfs",
           "label": "行业 ETF",
           "kind": "industries",
           "source": "sector_etf",
+          "symbols": [
+            "XLB",
+            "XLC",
+            "XLE",
+            "XLF",
+            "XLI",
+            "XLK",
+            "XLP",
+            "XLRE",
+            "XLU",
+            "XLV",
+            "XLY"
+          ],
+          "defaultSymbols": [
+            "XLK",
+            "XLF",
+            "XLV",
+            "XLY",
+            "XLE",
+            "XLI",
+            "XLP",
+            "XLU"
+          ],
           "file": "/market-data/us_sector_etfs.json",
-          "rows": 64201,
+          "rows": 64212,
           "minDate": "2000-01-03",
-          "maxDate": "2026-04-30"
+          "maxDate": "2026-05-01"
         }
       ]
     },
     {
       "key": "uk",
       "label": "英股",
+      "symbols": [
+        "^FTSE",
+        "^FTMC",
+        "^FTAS"
+      ],
+      "defaultSymbols": [],
       "file": "/market-data/uk.json",
       "rows": 19955,
       "minDate": "2000-01-04",
@@ -348,19 +479,67 @@
           "file": "/market-data/uk.json",
           "rows": 19955,
           "minDate": "2000-01-04",
-          "maxDate": "2026-05-01"
+          "maxDate": "2026-05-01",
+          "symbols": [
+            "^FTSE",
+            "^FTMC",
+            "^FTAS"
+          ],
+          "defaultSymbols": []
         },
         {
           "key": "uk_sector_etfs",
           "label": "行业 ETF",
           "kind": "industries",
           "source": "sector_etf",
+          "symbols": [
+            "IUCM.L",
+            "IUCD.L",
+            "IUCS.L",
+            "IUES.L",
+            "IUFS.L",
+            "IUHC.L",
+            "IUIS.L",
+            "IUIT.L",
+            "IUMS.L",
+            "XRES.L",
+            "IUUS.L"
+          ],
+          "defaultSymbols": [
+            "IUIT.L",
+            "IUFS.L",
+            "IUHC.L",
+            "IUCD.L",
+            "IUES.L",
+            "IUIS.L"
+          ],
           "file": "/market-data/uk_sector_etfs.json",
           "rows": 26898,
           "minDate": "2015-11-20",
           "maxDate": "2026-05-01"
         }
       ]
+    },
+    {
+      "key": "commodities",
+      "label": "大宗商品",
+      "symbols": [
+        "GC=F",
+        "SI=F",
+        "BZ=F",
+        "CL=F",
+        "HG=F",
+        "NG=F"
+      ],
+      "defaultSymbols": [
+        "GC=F",
+        "SI=F",
+        "BZ=F"
+      ],
+      "file": "/market-data/commodities.json",
+      "rows": 36895,
+      "minDate": "2000-08-23",
+      "maxDate": "2026-05-01"
     }
   ]
 }
