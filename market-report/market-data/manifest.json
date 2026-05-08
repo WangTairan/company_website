@@ -19,18 +19,18 @@
         "399001.SZ"
       ],
       "file": "/market-data/china_a.json",
-      "rows": 14000,
+      "rows": 14013,
       "minDate": "2000-01-04",
-      "maxDate": "2026-04-30",
+      "maxDate": "2026-05-08",
       "datasets": [
         {
           "key": "indexes",
           "label": "指数",
           "kind": "indexes",
           "file": "/market-data/china_a.json",
-          "rows": 14000,
+          "rows": 14013,
           "minDate": "2000-01-04",
-          "maxDate": "2026-04-30",
+          "maxDate": "2026-05-08",
           "symbols": [
             "000001.SS",
             "399001.SZ",
@@ -95,9 +95,9 @@
             "801780"
           ],
           "file": "",
-          "rows": 139130,
+          "rows": 139223,
           "minDate": "2000-01-04",
-          "maxDate": "2026-04-30",
+          "maxDate": "2026-05-08",
           "chunks": [
             {
               "key": "2000",
@@ -336,11 +336,11 @@
             {
               "key": "2026",
               "startDate": "2026-01-05",
-              "endDate": "2026-04-30",
+              "endDate": "2026-05-08",
               "file": "/market-data/china_a_industries_sw_level_1/2026.json",
-              "rows": 2387,
+              "rows": 2480,
               "minDate": "2026-01-05",
-              "maxDate": "2026-04-30"
+              "maxDate": "2026-05-08"
             }
           ]
         }
@@ -355,18 +355,18 @@
       ],
       "defaultSymbols": [],
       "file": "/market-data/hong_kong.json",
-      "rows": 12970,
+      "rows": 12980,
       "minDate": "2000-01-03",
-      "maxDate": "2026-04-30",
+      "maxDate": "2026-05-08",
       "datasets": [
         {
           "key": "indexes",
           "label": "指数",
           "kind": "indexes",
           "file": "/market-data/hong_kong.json",
-          "rows": 12970,
+          "rows": 12980,
           "minDate": "2000-01-03",
-          "maxDate": "2026-04-30",
+          "maxDate": "2026-05-08",
           "symbols": [
             "^HSI",
             "^HSCE"
@@ -386,9 +386,9 @@
           ],
           "defaultSymbols": [],
           "file": "/market-data/hong_kong_hang_seng_sectors.json",
-          "rows": 17789,
+          "rows": 17809,
           "minDate": "2000-01-03",
-          "maxDate": "2026-04-30"
+          "maxDate": "2026-05-08"
         }
       ]
     },
@@ -403,18 +403,18 @@
       ],
       "defaultSymbols": [],
       "file": "/market-data/us.json",
-      "rows": 26488,
+      "rows": 26508,
       "minDate": "2000-01-03",
-      "maxDate": "2026-05-01",
+      "maxDate": "2026-05-08",
       "datasets": [
         {
           "key": "indexes",
           "label": "指数",
           "kind": "indexes",
           "file": "/market-data/us.json",
-          "rows": 26488,
+          "rows": 26508,
           "minDate": "2000-01-03",
-          "maxDate": "2026-05-01",
+          "maxDate": "2026-05-08",
           "symbols": [
             "^GSPC",
             "^DJI",
@@ -452,9 +452,9 @@
             "XLU"
           ],
           "file": "/market-data/us_sector_etfs.json",
-          "rows": 64212,
+          "rows": 64267,
           "minDate": "2000-01-03",
-          "maxDate": "2026-05-01"
+          "maxDate": "2026-05-08"
         }
       ]
     },
@@ -468,18 +468,18 @@
       ],
       "defaultSymbols": [],
       "file": "/market-data/uk.json",
-      "rows": 19955,
+      "rows": 19967,
       "minDate": "2000-01-04",
-      "maxDate": "2026-05-01",
+      "maxDate": "2026-05-08",
       "datasets": [
         {
           "key": "indexes",
           "label": "指数",
           "kind": "indexes",
           "file": "/market-data/uk.json",
-          "rows": 19955,
+          "rows": 19967,
           "minDate": "2000-01-04",
-          "maxDate": "2026-05-01",
+          "maxDate": "2026-05-08",
           "symbols": [
             "^FTSE",
             "^FTMC",
@@ -514,9 +514,9 @@
             "IUIS.L"
           ],
           "file": "/market-data/uk_sector_etfs.json",
-          "rows": 26898,
+          "rows": 26942,
           "minDate": "2015-11-20",
-          "maxDate": "2026-05-01"
+          "maxDate": "2026-05-08"
         }
       ]
     },
@@ -537,9 +537,9 @@
         "BZ=F"
       ],
       "file": "/market-data/commodities.json",
-      "rows": 36895,
+      "rows": 36925,
       "minDate": "2000-08-23",
-      "maxDate": "2026-05-01"
+      "maxDate": "2026-05-08"
     }
   ]
 }
