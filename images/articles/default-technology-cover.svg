@@ -1,0 +1,42 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Default technology article cover</title>
+  <desc id="desc">A minimal deep technology-style cover with restrained curves and a quiet grid.</desc>
+  <rect width="1200" height="720" fill="#06101D"/>
+  <rect width="1200" height="720" fill="url(#depth)"/>
+  <g opacity="0.16">
+    <path d="M120 156H1080" stroke="#B6C9DF"/>
+    <path d="M120 316H1080" stroke="#B6C9DF"/>
+    <path d="M120 476H1080" stroke="#B6C9DF"/>
+    <path d="M260 96V624" stroke="#B6C9DF"/>
+    <path d="M520 96V624" stroke="#B6C9DF"/>
+    <path d="M780 96V624" stroke="#B6C9DF"/>
+    <path d="M1040 96V624" stroke="#B6C9DF"/>
+  </g>
+  <path d="M126 446C282 334 370 370 510 292C650 214 768 196 914 266C1000 308 1060 300 1112 268" stroke="url(#lineA)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M122 356C260 396 356 454 496 420C636 386 696 292 824 318C938 342 998 416 1108 390" stroke="url(#lineB)" stroke-width="2" stroke-linecap="round" opacity="0.78"/>
+  <path d="M146 526C310 560 430 566 562 500C684 440 768 438 884 492C960 528 1030 534 1092 506" stroke="#8DA9C8" stroke-width="1.5" stroke-linecap="round" opacity="0.42"/>
+  <g opacity="0.76">
+    <circle cx="510" cy="292" r="5" fill="#DCEBFF"/>
+    <circle cx="914" cy="266" r="5" fill="#DCEBFF"/>
+    <circle cx="562" cy="500" r="4" fill="#AFC7E4"/>
+    <circle cx="824" cy="318" r="4" fill="#AFC7E4"/>
+  </g>
+  <path d="M120 624H1080" stroke="#E3ECF7" stroke-opacity="0.34"/>
+  <defs>
+    <radialGradient id="depth" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(690 328) rotate(90) scale(440 590)">
+      <stop stop-color="#193655"/>
+      <stop offset="0.52" stop-color="#0B1A2B"/>
+      <stop offset="1" stop-color="#040812"/>
+    </radialGradient>
+    <linearGradient id="lineA" x1="126" y1="446" x2="1112" y2="268" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6FA7D8"/>
+      <stop offset="0.52" stop-color="#DDEBFA"/>
+      <stop offset="1" stop-color="#7FAED7"/>
+    </linearGradient>
+    <linearGradient id="lineB" x1="122" y1="356" x2="1108" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5D7797"/>
+      <stop offset="0.5" stop-color="#AFC3D9"/>
+      <stop offset="1" stop-color="#55718F"/>
+    </linearGradient>
+  </defs>
+</svg>
