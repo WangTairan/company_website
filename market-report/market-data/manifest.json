@@ -526,20 +526,24 @@
       "symbols": [
         "GC=F",
         "SI=F",
+        "XAUUSD",
+        "XAGUSD",
         "BZ=F",
         "CL=F",
         "HG=F",
         "NG=F"
       ],
       "defaultSymbols": [
+        "XAUUSD",
+        "XAGUSD",
         "GC=F",
         "SI=F",
         "BZ=F"
       ],
       "file": "/market-data/commodities.json",
-      "rows": 36955,
+      "rows": 47330,
       "minDate": "2000-08-23",
-      "maxDate": "2026-05-15"
+      "maxDate": "2026-05-18"
     }
   ]
 }
